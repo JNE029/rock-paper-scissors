@@ -10,20 +10,20 @@ body {
     margin-top: 50px;
 }
 
-#subtitle {
+#playertitle {
     display: flex;
     justify-content: center;
 }
 
-.choices {
+.playerchoices {
     display: flex;
     justify-content: center;
-    margin: 50px 0px 50px 0px;
+    margin: 25px 0px 50px 0px;
 }
 
 #rock {
     background-color: #fff;
-    border-style: solid;
+    border-style: dashed;
     border-color: #000;
     margin: 10px 25px 10px 25px;
     padding: 10px 10px 10px 10px;
@@ -31,7 +31,7 @@ body {
 
 #paper {
     background-color: #fff;
-    border-style: solid;
+    border-style: dashed;
     border-color: #000;
     margin: 10px 25px 10px 25px;
     padding: 10px 10px 10px 10px;
@@ -39,8 +39,43 @@ body {
 
 #scissors {
     background-color: #fff;
-    border-style: solid;
+    border-style: dashed;
     border-color: #000;
     margin: 10px 25px 10px 25px;
     padding: 10px 10px 10px 10px;
+}
+
+#comptitle {
+    display: flex;
+    justify-content: center;
+}
+
+.compchoice {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 50px 0px;  
+}
+
+#comprock {
+    background-color: #fff;
+    border-style: dashed;
+    border-color: #f00;
+    margin: 10px 25px 10px 25px;
+    padding: 10px 10px 10px 10px;    
+}
+
+#comppaper {
+    background-color: #fff;
+    border-style: dashed;
+    border-color: #f00;
+    margin: 10px 25px 10px 25px;
+    padding: 10px 10px 10px 10px;    
+}
+
+#compscissors {
+    background-color: #fff;
+    border-style: dashed;
+    border-color: #f00;
+    margin: 10px 25px 10px 25px;
+    padding: 10px 10px 10px 10px;    
 }
