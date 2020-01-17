@@ -1,14 +1,17 @@
 let playerChoice;
 let compChoice;
 
+/*
 function playerSelection() {
-    const playerBtns = document.querySelectorAll("button");
+    const playerBtns = document.querySelector("button");
     playerBtns.forEach((button) => {
         button.addEventListener("click", (e) => {
-            let playerChoice = button.id;            
+            let playerChoice = button.id;   
+            console.log(playerChoice);     
         });
     });  
 }
+*/
 
 function compSelection() {
     choices = ["rock", "paper", "scissors"];
@@ -38,7 +41,18 @@ function game() {
     let computerScore = 0;
     let totalScore = playerScore + computerScore;
 
-    playerSelection();
+
 }
 
-game();
+function playerSelection() {
+    const playerBtns = document.querySelector(".playerchoices");
+    playerBtns.forEach((button) => {
+        playerchoices.addEventListener("click", (e) => {
+            let playerChoice = button.id;
+            console.log(playerChoice);
+        });
+    });
+}
+
+playerSelection();
+
