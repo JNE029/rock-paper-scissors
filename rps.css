@@ -1,87 +1,46 @@
 body {
-    background-color: #fff;
-    margin: auto;
+    background-color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
 }
 
-#title {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+.buttons {
+    margin: 25px 0px 25px 0px;
 }
 
-#scoreboard {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px; 
+#startbtn, #replaybtn {
+    background-color: #FFF;
+    border-style: dashed;
+    border-color: #2F4F4F;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px; 
 }
 
-#playertitle {
-    display: flex;
-    justify-content: center;
+#star1, #star2, #star3, #star4, #star5 {
+    background-color: #FFF;
+    border-style: dashed;
+    border-color: #2F4F4F;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px; 
 }
 
 .playerchoices {
-    display: flex;
-    justify-content: center;
-    margin: 25px 0px 50px 0px;
+    margin: 25px 0px 25px 0px;
 }
 
-#rock {
-    background-color: #fff;
+#rock, #paper, #scissors {
+    background-color: #FFF;
     border-style: dashed;
-    border-color: #000;
+    border-color: #2F4F4F;
     margin: 10px 25px 10px 25px;
     padding: 10px 10px 10px 10px;
 }
 
-#paper {
-    background-color: #fff;
+#comprock, #comppaper, #compscissors {
+    background-color: #FFF;
     border-style: dashed;
-    border-color: #000;
+    border-color: #800000;
     margin: 10px 25px 10px 25px;
     padding: 10px 10px 10px 10px;
-}
-
-#scissors {
-    background-color: #fff;
-    border-style: dashed;
-    border-color: #000;
-    margin: 10px 25px 10px 25px;
-    padding: 10px 10px 10px 10px;
-}
-
-#comptitle {
-    display: flex;
-    justify-content: center;
-}
-
-.compchoice {
-    display: flex;
-    justify-content: center;
-    margin: 25px 0px 50px 0px;  
-}
-
-#comprock {
-    background-color: #fff;
-    border-style: dashed;
-    border-color: #f00;
-    margin: 10px 25px 10px 25px;
-    padding: 10px 10px 10px 10px;    
-}
-
-#comppaper {
-    background-color: #fff;
-    border-style: dashed;
-    border-color: #f00;
-    margin: 10px 25px 10px 25px;
-    padding: 10px 10px 10px 10px;    
-}
-
-#compscissors {
-    background-color: #fff;
-    border-style: dashed;
-    border-color: #f00;
-    margin: 10px 25px 10px 25px;
-    padding: 10px 10px 10px 10px;    
 }
