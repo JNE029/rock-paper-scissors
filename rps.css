@@ -10,6 +10,12 @@ body {
     margin-top: 50px;
 }
 
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px; 
+}
+
 #playertitle {
     display: flex;
     justify-content: center;
